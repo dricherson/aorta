@@ -1,0 +1,157 @@
+/* 
+    Document   : footer
+    Created on : Sep 26, 2009, 6:31:05 AM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*
+footermenubar is the root UL and footermenubar ul applies to all the sub-menu ULs.
+We set padding and margin to zero to eliminate all indentation, turn bullets off,
+and set a font-family different from the global font-family declared for the
+body element above. This sets font for just the menu. Do not add a font-size here.
+*/
+#footermenubar, #footermenubar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+Root-Level Links.  Do not change the first two properties.
+Adjust padding values to make the root links taller and to offset them
+from the left and right edges of the link box. The border right creates a
+separator between links. Font-size is set here and will apply to all menu levels.
+Font color is set to light gray.
+*/
+#footermenubar a {
+    display: block;
+    text-decoration:underline;
+    padding: 5px 10px 5px 10px;
+    border-right: 1px solid #333;
+    font-size: .85em;
+    color: #FFFFFF;
+}
+/*
+Class assigned to those Root-Level links that have associated Sub-Menus.
+The top and bottom padding assigned this element must be the same as
+that assigned to the footermenubar a element. The right padding is increased
+to accomodate the display of background image depicting a downward
+pointing arrow.
+*/
+#footermenubar a.trigger {
+    padding: 5px 16px 5px 10px;
+
+}
+/*
+The Root-Level list items. Floating left allows
+them to appear horizontally. Width is for IE5 Mac. The last rule in
+this style sheet will set the width for this element to auto for all
+other browsers - hiding it from IE5 Mac. The width is proportional.
+As you add and edit root menu items, you will need to test this width
+to ensure it is wide enough to accomodate all text.
+*/
+#footermenubar li {
+    float: left;
+    width: 9em;
+}
+/*
+Sets width for Sub-Menu box and the List Items inside - in proportional em units.
+This allows the sub-menu width to expand if users resize the text in their browsers.
+*/
+#footermenubar li ul, #footermenubar ul li  {
+    width: 12em;
+}
+/*
+The sub-menu links. We set color and turn off the right border, which
+would otherwise be inherited from the root link rule. We set top and
+bottom padding less than the root items and increas the left padding
+to indent the sub-menu links a small amount in from the root links.
+*/
+#footermenubar ul li a  {
+    color: #FFFFFF;
+    border-right: 0;
+    padding: 3px 12px 3px 16px;
+}
+/*
+Sub-Menu Unordered Lists describes each dropdown sub-menu grouping.
+Positioned Absolutely to allow them to appear below their root trigger.
+Set to display none to hide them until trigger is moused over.
+Background Color must be set or problems will be encountered in MSIE.
+Right and bottom borders are set to simulate a raised look.
+A gradient background image is assigned.
+*/
+#footermenubar li ul {
+    position:absolute;
+    display: none;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border-right: 5px solid #000000;
+    border-bottom: 8px solid #000000;
+    border-left: 5px solid #000000;
+    border-top: 5px solid #000000;
+    /*background-image: url(../images/2009/paper.jpg);*/
+    background-image: url(images/p7exp_mgrad.jpg);
+    background-repeat:repeat;
+}
+/*
+Changes the Text color and background color when the Root-Level
+menu items are moused over. The second selector sets color and background
+when Root-Level items are accessed with the keyboard tab key. The third
+selector sets an active state to support keyboard access in MSIE. The fourth
+selector is assigned to IE5 and IE6 Windows via the P7_ExpMenu script.
+Note that IE7 supports hover on elements other than links and so behaves
+like Firefox, Opera, and Safari - making the menu operable even if JavaScript
+is not enabled.
+*/
+#footermenubar li:hover a, #footermenubar a:focus,
+#footermenubar a:active, #footermenubar li.p7hvr a {
+    color: yellow;
+    background-color: #000000;
+}
+/*
+Set the Sub-Menu UL to be visible when its associated
+Root-Level link is moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+*/
+#footermenubar li:hover ul, #footermenubar li.p7hvr ul {
+    display: block;
+}
+/*
+Sets the Text color of the Sub-Level links when the Root-Level
+menu items are moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+The color set should march the normal Sub-Level link color
+in the rule: #footermenubar ul li a. The background color must be
+transparent to allow the underlying gradient background on the UL
+to show through.
+*/
+#footermenubar li:hover ul a, #footermenubar li.p7hvr ul a {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+/*
+The normal hover class for Sub-Level links. The Important directive
+is required for older browsers. We set a background color, which shows
+over the gradient background. We set text color to white.
+*/
+#footermenubar ul a:hover {
+    color: Yellow!important;
+    font-weight:bold;
+    padding: 5px 16px 5px 15px;
+    background-image: url(images/p7PM_dark_east.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* The single backslash \ character inside this comment
+causes IE5 Mac to ignore the following rule, which allows other
+browsers to render top-level menu items to their natural width.
+Do not edit this rule in any way. */
+#footermenubar li {width: auto;}
