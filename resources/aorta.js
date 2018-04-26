@@ -55,33 +55,37 @@ function ReverseContentDisplay(d) {
 function HideAll(){
     /* Replace by traversing the displayed divs and closing them*/
     HideContent('intro');
-    HideContent('mattImages');
-    HideContent('mattCoaching');
-    HideContent('mattMemo');
-    HideContent('mattScholarship');
-    HideContent('mattHTCM');
+    HideContent('eventImages');
+    HideContent('locationImages');
     HideContent('eventInfo');
-    HideContent('merchandise');
-    HideContent('trophies');
-    HideContent('teamregform');
+    HideContent('calendar');
     HideContent('aorta_mission');
     HideContent('aorta_board');
     HideContent('aorta_contact');
     HideContent('comingsoon');
+    HideContent('ArtGrants');
+    HideContent('artgrantform');
+    HideContent('volunteerform');
+    HideContent('Maps');
+    /*
+    HideContent('mattCoaching');
+    HideContent('mattMemo');
+    HideContent('mattScholarship');
+    HideContent('mattHTCM');
+    HideContent('merchandise');
+    HideContent('trophies');
+    HideContent('teamregform');
     HideContent('BowlResults');
     HideContent('CurrentTeams');
-    HideContent('Scholarships');
     HideContent('Sponsors');
-    HideContent('Maps');
     HideContent('tshirtOrder');
     HideContent('longSleeveOrder');
     HideContent('sweatShirtOrder');
     HideContent('hoodieOrder');
     HideContent('passOrder');
     HideContent('buttonOrder');
-    HideContent('artgrantform');
-    HideContent('volunteerform');
     HideContent('sponsorshipform');
+    */
 }
 
 

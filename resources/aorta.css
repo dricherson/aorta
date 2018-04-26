@@ -64,13 +64,12 @@ body {
     display:block;
 }
 
-#eventInfo, #trophies, #mattImages, #mattCoaching, #mattMemo,
-#mattScholarship, #mattHTCM, #aorta_mission, #teamregform, #comingsoon
+#eventInfo, #eventImages, #locationImages, #aorta_mission, #teamregform, #comingsoon
 {
     display:none;
 }
 
-#Scholarships, #BowlResults, #Sponsors, #Maps, #artgrantform, #CurrentTeams
+#ArtGrants, #Maps, #artgrantform, #calendar
 {
     display:none;
 }
@@ -80,8 +79,7 @@ body {
     display:none;
 }
 
-#tshirtOrder, #longSleeveOrder, #sweatShirtOrder, #hoodieOrder, #buttonOrder, #passOrder
-, #merchandise
+#merchandise
 {
     display:none;
     /*height:9.625em;*/
