@@ -256,25 +256,26 @@ body {
 }
 
 .thumbnail span{ /*CSS for enlarged image*/
-                 position: absolute;
-                 background-color: lightyellow;
-                 padding: 5px;
-                 left: -100px;
-                 border: 1px dashed gray;
-                 visibility: hidden;
-                 color: black;
-                 text-decoration: none;
+    position: absolute;
+    /*background-color: lightyellow;*/
+    background-color: darkgray;
+    padding: 5px;
+    left: 100px;
+    border: 1px dashed black;
+    visibility: hidden;
+    color: black;
+    text-decoration: magenta;
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
-                     border-width: 0;
-                     padding: 2px;
+    border-width: 0;
+    padding: 2px;
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image on hover*/
-                       visibility: visible;
-                       top: 50;
-                       left: 50px; /*position where enlarged image should offset horizontally */
+    visibility: visible;
+    top: 10;
+    left: 100px; /*position where enlarged image should offset horizontally */
 
 }
 
@@ -309,7 +310,7 @@ body {
 
 .message_new {
     color:#FF2020;
-    font-size:1.0em;
+    /*font-size:1.0em;*/
     font-weight:bold;
     text-align:left;
     padding:10px;
@@ -500,7 +501,7 @@ body element above. This sets font for just the menu. Do not add a font-size her
     padding: 0;
     margin: 0;
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
 }
 /*
 Root-Level Links.  Do not change the first two properties.
@@ -547,7 +548,7 @@ Sets width for Sub-Menu box and the List Items inside - in proportional em units
 This allows the sub-menu width to expand if users resize the text in their browsers.
 */
 #p7menubar li ul, #p7menubar ul li  {
-    width: 12em;
+    width: 14em;
 }
 /*
 The sub-menu links. We set color and turn off the right border, which
@@ -556,7 +557,8 @@ bottom padding less than the root items and increas the left padding
 to indent the sub-menu links a small amount in from the root links.
 */
 #p7menubar ul li a  {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: #FF0000;
     border-right: 0;
     padding: 3px 12px 3px 16px;
 }
@@ -579,7 +581,6 @@ A gradient background image is assigned.
     border-top: 5px solid #333333;
     aborder-right: 1px solid #333333;
     aborder-bottom: 1px solid #333333;
-    /*background-image: url(../images/2009/paper.jpg);*/
     background-image: url(images/p7exp_mgrad.jpg);
     background-repeat:repeat;
 }
@@ -595,7 +596,8 @@ is not enabled.
 */
 #p7menubar li:hover a, #p7menubar a:focus,
 #p7menubar a:active, #p7menubar li.p7hvr a {
-    color: yellow;
+    /*color: yellow;*/
+    color: royalblue;
     background-color: #000000;
 }
 /*
@@ -626,7 +628,8 @@ over the gradient background. We set text color to white.
 */
 #p7menubar ul a:hover {
     abackground-color: #FFFF00!important;
-    color: Yellow!important;
+    /*color: Yellow!important;*/
+    color: royalblue;
     padding: 5px 16px 5px 15px;
     background-image: url(images/p7PM_dark_east.gif);
     background-repeat: no-repeat;
@@ -741,7 +744,8 @@ is not enabled.
 */
 #footermenubar li:hover a, #footermenubar a:focus,
 #footermenubar a:active, #footermenubar li.p7hvr a {
-    color: yellow;
+    /*color: yellow;*/
+    color: royalblue;
     background-color: #000000;
 }
 /*
@@ -772,7 +776,8 @@ over the gradient background. We set text color to white.
 */
 #footermenubar ul a:hover {
     abackground-color: #FFFF00!important;
-    color: Yellow!important;
+    /*color: Yellow!important;*/
+    color: royalblue;
     padding: 5px 16px 5px 15px;
     background-image: url(images/p7PM_dark_east.gif);
     background-repeat: no-repeat;
@@ -793,7 +798,8 @@ a:link {
 }
 
 a:visited {
-    color: yellow
+    /*color: yellow;*/
+    color: royalblue;
 }
 
 a:active {
@@ -801,7 +807,8 @@ a:active {
 }
 
 a:hover {
-    color: yellow;
+    /*color: yellow;*/
+    color: royalblue;
     background-color: black;
     text-decoration: none;
     visibility: visible;
@@ -933,7 +940,8 @@ td.title
 
 .notice
 {
-    color: yellow;
+    /*color: yellow;*/
+    color: royalblue;
     background-color: black;
     font-weight: bold;
     text-align: left;
@@ -944,7 +952,8 @@ td.title
 
 .notice_center
 {
-    color: yellow;
+    /*color: yellow;*/
+    color: royalblue;
     background-color: black;
     font-weight: bold;
     text-align: left;
