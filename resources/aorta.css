@@ -523,6 +523,7 @@ body element above. This sets font for just the menu. Do not add a font-size her
 #p7menubar {
     padding: 0;
     margin: auto;
+    list-style:none;
     /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
@@ -791,7 +792,6 @@ assigned to IE5 and IE6 via the P7_ExpMenu script.
 */
 #footermenubar li:hover ul, #footermenubar li.p7hvr ul {
     display: block;
-
 }
 /*
 Sets the Text color of the Sub-Level links when the Root-Level
@@ -819,6 +819,7 @@ over the gradient background. We set text color to white.
     background-repeat: no-repeat;
     background-position: left center;
     bottom: 100%;
+
 }
 
 /* The single backslash \ character inside this comment
