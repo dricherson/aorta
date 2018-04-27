@@ -14,7 +14,7 @@
         <![endif]-->
         <!-- Core + Skin CSS -->
     </head>
-    <body onLoad="P7_ExpMenu()">
+    <body onLoad="P7_ExpMenu();initCountDown();">
 
         <script type="text/javascript" language="JavaScript">
 
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div id="navbar">
+            <div id="navbar">                    
                 <div id="menuwrapper">
                     <ul id="p7menubar">
                         <li><a class="trigger" href="#">Event Information</a>
@@ -77,6 +77,7 @@
                     </ul>
                     <br class="clearit">
                 </div>
+
             </div>
         </div>
 
@@ -326,10 +327,34 @@
                 </div>
             </div>
 
-            <div id="intro">
-                <div class="message">
+            <div id="intro" >
+                <!--<div class="message">
                     <img class="floatRight" src="images/2018/logo.png" width="300"  alt="logo"/>
+                </div>-->
+
+                <div class="message_center" id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>  
+                    <br/>
+                    <div>
+                        <span class="clockMessage"></span>
+                    </div>                                           
                 </div>
+
                 <div class="message_new">
                     <span>
                         5/01/2018 - <a href="https://burnertickets.com/aorta-2018/">2018 A.O.R.T.A. tickets</a> are now available.
@@ -349,48 +374,8 @@
                     <span>
                         Hot food and cold drinks will be not available for sale.
                     </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div><div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>                
+                </div>             
             </div>
-
             <div id="eventInfo">
                 <div class="pageTitle">
                     <span>
@@ -1149,53 +1134,23 @@
                         A.O.R.T.A. (Adults Only Recreational Thermodynamic Adventure) - Mission Statement
                     </span>
                 </div>
-                <div class="message">
-                    <img class="floatRight" src="images/2018/aorta_logo.png" width="300"  alt="logo"/>
-                </div>
-                <div class="message">
+                <div class="section">
                     <span>
                         The Adults Only Recreational Thermodynamic Adventure (A.O.R.T.A.) mission is to improve our lives by doing stuff.
                     </span>
                 </div>
-                <div class="message">
+                <div class="section">
                     <span>
                         Have a great year.
                     </span>
                 </div>
-                <div class="message">
+                <div class="section">
                     <span>
                         Mind your MOOP.
                     </span>
-                </div>
+                </div>  
                 <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
-                </div>
-                <div class="message">
-                    <span>
-                        &nbsp;
-                    </span>
+                    <img class="floatRight" src="images/2018/aorta_logo.png" width="300"  alt="logo"/>
                 </div>                
             </div>
 

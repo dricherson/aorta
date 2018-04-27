@@ -6,40 +6,47 @@
   ------------------------------------
 */
 body {
-    font-family: "Trebuchet MS", Arial, sans-serif;
+    /*font-family: "Trebuchet MS", Arial, sans-serif;*/
     font-size: 100%;
     background-color: #FFFFFF;
-    margin: 24px 0;
-    padding: 0;
+    margin: 24px 100px;
+    padding: 20px 20px;
     background-image: url(images/turf.jpg);
-
+    min-width: 1024px;
 }
 
 #wrapper {
     margin: 0 auto;
-    padding: 0 7px;
-    width: 1000px;
-    position:relative;
+    padding: 0;
+    display:block;
+    /*width: 1000px;*/
+    /*position:relative;*/
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    float:none;    
+    height:available;
 }
 
 #content{
     display:block;
-    margin:0 auto;
-    padding:0;
-    width:1000px;
-    height:auto;
+    margin: auto;
+    padding: 0 7px;
+    /*width: 1000px;*/
+    min-height: 600px;
     /*height:9.625em;*/
     background:#222222;
     border-left: 0px solid #000000;
     border-right: 0px solid #000000;
     /*overflow:hidden;*/
     float:none;
+    text-align: center;
 }
 
 #header {
+    clear:both;
     margin:0;
     padding:0;
-    width:1000px;
+    /*width:1000px;*/
     /*height:9.625em;*/
     background-color:#000000;
     /*overflow:hidden;*/
@@ -50,33 +57,64 @@ body {
     border-bottom: 1px solid #222222;
 }
 
-#navbar {
-    margin:0;
+#footer {
+    clear:both;
+    margin:auto;
     padding:0;
-    width:1000px;
+    /*width:1000px;*/
     /*height:9.625em;*/
-    background:#000000;
+    /*overflow:hidden;*/
+    background-color:#000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #000000;
+}
+
+
+#navbar {
+    margin: auto;
+    padding:0;
+    /*width:1000px;*/
+    /*height:9.625em;*/
+    background:black;
     /*overflow:hidden;*/
     position:relative;
+    display: block;
 }
 
 #intro {
-    display:block;
+    margin: auto;
+    max-width: 1024px;
+    min-height: 600px;
 }
 
-#eventInfo, #eventImages, #locationImages, #aorta_mission, #teamregform, #comingsoon
+#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon
 {
     display:none;
+    margin: auto;
+    max-width: 1024px;
+    min-height: 600px;
+}
+
+#aorta_board,#aorta_contact {
+    display:none;
+    max-width: 1024px;
+    margin: auto;
+    min-height: 600px;
 }
 
 #ArtGrants, #Maps, #artgrantform, #calendar
 {
     display:none;
+    min-height: 600px;
+    max-width: 1024px;
 }
 
-#volunteerform, #sponsorshipform
+#volunteerform
 {
     display:none;
+    min-height: 600px;
 }
 
 #merchandise
@@ -153,7 +191,6 @@ body {
     background:#222222;
     margin:0 auto;
     HEIGHT:AUTO;
-
 }
 
 .merchandiseDiv{
@@ -170,26 +207,6 @@ body {
     width:300px;
     float:left;
     color:white;
-
-
-}
-
-#aorta_board,#aorta_contact {
-    display:none;
-    text-align:center;
-}
-
-#footer {
-    clear:both;
-    margin:0 auto;
-    padding:0;
-    width:1000px;
-    /*height:9.625em;*/
-    /*overflow:hidden;*/
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-top: 1px solid #222222;
-    border-bottom: 1px solid #000000;
 }
 
 .table_center {
@@ -280,10 +297,10 @@ body {
 }
 
 .spacer {
-    margin:0 auto;
+    margin:0;
     padding:0px;
     height:20px;
-    width:1000px;
+    /*width:1000px;*/
     float:none;
     background:#222222;
     border-left: 0px solid #000000;
@@ -293,9 +310,9 @@ body {
 }
 
 .footerSpacer{
-    margin:0 auto;
+    margin:0;
     padding:0;
-    width:1000px;
+    /*width:1000px;*/
     border: 1px solid #000000;
     background-color:#000000;
 }
@@ -303,6 +320,7 @@ body {
 .message {
     color:white;
     text-align:left;
+    margin:auto;
     padding:10px;
     width:auto;
     vertical-align:middle;
@@ -371,7 +389,7 @@ body {
     text-align: center;
     color:white;
     padding:10px;
-    width:auto;
+    /*width:auto;*/
     vertical-align:middle;
 }
 
@@ -386,21 +404,26 @@ It carries a background image for aesthetics.
     border-left: 1px solid #333333;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    width:1000px;
+    /*width:1000px;*/
     background-image: url(images/p7exp_mbar.jpg);
-    margin-left: auto ;
-    margin-right: auto ;
+    width:100%;
+    margin: auto;
+    padding: 0;
     float: left;
 }
 
 #footermenuwrapper {
     border-left: 1px solid #333333;
     border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    width:1000px;
+    border-top: 1px solid #333333;
+    /*width:1000px;*/
     background-image: url(images/footer_mbar.jpg);
-    margin-left: auto ;
+    /*margin-left: auto ;
     margin-right: auto ;
+    float: left;*/
+    width:100%;
+    margin: auto;
+    padding: 0;
     float: left;
 }
 
@@ -497,11 +520,18 @@ We set padding and margin to zero to eliminate all indentation, turn bullets off
 and set a font-family different from the global font-family declared for the
 body element above. This sets font for just the menu. Do not add a font-size here.
 */
-#p7menubar, #p7menubar ul {
+#p7menubar {
     padding: 0;
-    margin: 0;
-    list-style: none;
+    margin: auto;
     /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+#p7menubar ul {
+
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    padding: 0;
+    margin: auto;
+    list-style:none;
 }
 /*
 Root-Level Links.  Do not change the first two properties.
@@ -511,10 +541,11 @@ separator between links. Font-size is set here and will apply to all menu levels
 Font color is set to light gray.
 */
 #p7menubar a {
-    display: block;
+    display:block;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
     border-right: 1px solid #333;
+    border-left: 1px solid #333;
     font-size: .85em;
     color: #FFFFFF;
 }
@@ -606,7 +637,7 @@ Root-Level link is moused over. The second selector is
 assigned to IE5 and IE6 via the P7_ExpMenu script.
 */
 #p7menubar li:hover ul, #p7menubar li.p7hvr ul {
-    display: block;
+    display: block;   
 }
 /*
 Sets the Text color of the Sub-Level links when the Root-Level
@@ -638,7 +669,9 @@ over the gradient background. We set text color to white.
 causes IE5 Mac to ignore the following rule, which allows other
 browsers to render top-level menu items to their natural width.
 Do not edit this rule in any way. */
-#p7menubar li {width: auto;}
+#p7menubar li {
+    width: auto;
+}
 
 /*
 footermenubar is the root UL and footermenubar ul applies to all the sub-menu ULs.
@@ -648,8 +681,8 @@ body element above. This sets font for just the menu. Do not add a font-size her
 */
 #footermenubar, #footermenubar ul {
     padding: 0;
-    margin: 0;
-    list-style: none;
+    margin: auto;
+    list-style:none;
     /*font-family: Arial, Helvetica, sans-serif;*/
 }
 /*
@@ -660,12 +693,13 @@ separator between links. Font-size is set here and will apply to all menu levels
 Font color is set to light gray.
 */
 #footermenubar a {
-    display: block;
-    text-decoration:underline;
+    display:block;
+    text-decoration: none;
     padding: 5px 10px 5px 10px;
     border-right: 1px solid #333;
+    border-left: 1px solid #333;
     font-size: .85em;
-    color: #FFFFFF;
+    color: #FFFFFF;   
 }
 /*
 Class assigned to those Root-Level links that have associated Sub-Menus.
@@ -676,6 +710,9 @@ pointing arrow.
 */
 #footermenubar a.trigger {
     padding: 5px 16px 5px 10px;
+    background-image: url(images/p7PM_dark_south.gif);
+    background-repeat: no-repeat;
+    background-position: right center;    
 
 }
 /*
@@ -687,7 +724,7 @@ As you add and edit root menu items, you will need to test this width
 to ensure it is wide enough to accomodate all text.
 */
 #footermenubar li {
-    float: left;
+    float:left;
     width: 9em;
 }
 /*
@@ -781,14 +818,16 @@ over the gradient background. We set text color to white.
     background-image: url(images/p7PM_dark_east.gif);
     background-repeat: no-repeat;
     background-position: left center;
-        bottom: 100%;
+    bottom: 100%;
 }
 
 /* The single backslash \ character inside this comment
 causes IE5 Mac to ignore the following rule, which allows other
 browsers to render top-level menu items to their natural width.
 Do not edit this rule in any way. */
-#footermenubar li {width: auto;}
+#footermenubar li {
+    width: auto;
+}
 
 a {
     text-decoration: none;
@@ -986,4 +1025,59 @@ td.title
     float: left;
     width: 0%;
 }
+/*
+Countdown clock format
+*/
+#clockdiv{
+    /*font-family: sans-serif;*/
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    background:#222222;
+}
+/*
+Border area with uom
+*/
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background:#222222;
+    display: inline-block;
+}
 
+/*
+Inner area
+*/
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.clockMessage{
+    padding-top: 5px;
+}
+
+.days{
+    background:black;
+}
+
+.hours{
+    background:black;
+}
+
+.minutes{
+    background:black;
+}
+
+.seconds{
+    background:black;
+}
