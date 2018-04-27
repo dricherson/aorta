@@ -62,6 +62,7 @@ function HideAll(){
     HideContent('aorta_mission');
     HideContent('aorta_board');
     HideContent('aorta_contact');
+    HideContent('aorta_ideals');
     HideContent('comingsoon');
     HideContent('ArtGrants');
     HideContent('artgrantform');

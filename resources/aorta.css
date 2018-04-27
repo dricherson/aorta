@@ -97,7 +97,7 @@ body {
     min-height: 600px;
 }
 
-#aorta_board,#aorta_contact {
+#aorta_board,#aorta_contact,#aorta_ideals {
     display:none;
     max-width: 1024px;
     margin: auto;
