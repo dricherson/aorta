@@ -153,10 +153,10 @@ function initializeClock(id, endtime, message) {
     var t = getTimeRemaining(endtime);
 
     messageSpan.innerHTML = message;
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+    daysSpan.innerHTML = t.days + 'D';
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2) + 'H';
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2) + 'M';
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2) + 'S';
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
@@ -168,8 +168,8 @@ function initializeClock(id, endtime, message) {
 }
 
 var schedule = [
-    ['April 20 2018', 'May 01 2018', 'Until A.O.R.T.A. 2018 tickets go on sale at <a href="http://www.burnertickets.com/">BurnerTickets</a>'],
-    ['May 02 2018', 'August 24 2018', 'Until <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2018!!!</a>']
+    ['April 20 2018', 'May 01 2018', 'UNTIL TICKETS GO ON SALE'],
+    ['May 02 2018', 'August 24 2018', 'UNTIL <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2018!!!</a>']
 ];
 
 function initCountDown(){
