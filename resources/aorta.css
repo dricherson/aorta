@@ -10,7 +10,7 @@ body {
     font-size: 100%;
     background-color: #FFFFFF;
     margin: 24px 100px;
-    padding: 20px 20px 20px 20px;
+    padding:auto;
     background-image: url(images/turf.jpg);
     min-width: 1024px;
 }
