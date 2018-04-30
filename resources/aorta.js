@@ -68,7 +68,7 @@ function HideAll(){
     HideContent('artgrantform');
     HideContent('volunteerform');
     HideContent('Maps');
-    HideContent('Maps');
+    HideContent('volunteerPositions');
     /*
     HideContent('mattCoaching');
     HideContent('mattMemo');

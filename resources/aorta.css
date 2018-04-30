@@ -8,7 +8,7 @@
 body {
     /*font-family: "Trebuchet MS", Arial, sans-serif;*/
     font-family: Marker Felt, fantasy;
-    font-size:x-large;
+    
     background-color: #FFFFFF;
     margin: 20px auto;
     padding: auto;
@@ -37,6 +37,7 @@ body {
     display:block;
     margin: auto;
     padding: 0 7px;
+    font-size:x-large;
     /*width: 1000px;*/
     min-height: 600px;
     /*height:9.625em;*/
@@ -81,6 +82,7 @@ body {
 #navbar {
     margin: auto;
     padding:auto;
+    font-size:x-large;
     background-color:#000000;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
@@ -102,7 +104,7 @@ body {
     min-height: 600px;
 }
 
-#aorta_board,#aorta_contact,#aorta_ideals {
+#aorta_board,#aorta_contact,#aorta_ideals, #volunteerPositions {
     display:none;
     max-width: 1024px;
     margin: auto;
