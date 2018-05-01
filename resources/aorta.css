@@ -96,7 +96,7 @@ body {
     min-height: 600px;
 }
 
-#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon
+#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon, #tickets
 {
     display:none;
     margin: auto;
@@ -838,7 +838,7 @@ Do not edit this rule in any way. */
 }
 
 a {
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 a:link {

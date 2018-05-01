@@ -167,9 +167,8 @@ function initializeClock(id, endtime, message) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var schedule = [
-    ['April 20 2018', 'May 01 2018', 'UNTIL TICKETS GO ON SALE'],
-    ['May 02 2018', 'August 24 2018', 'UNTIL <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2018!!!</a>']
+var schedule = [    
+    ['April 30 2018', 'August 24 2018', 'UNTIL <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2018!!!</a>']
 ];
 
 function initCountDown(){
