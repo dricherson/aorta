@@ -37,7 +37,7 @@ body {
     display:block;
     margin: auto;
     padding: 0 7px;
-    font-size:x-large;
+    font-size:large;
     /*width: 1000px;*/
     min-height: 600px;
     /*height:9.625em;*/
@@ -82,7 +82,7 @@ body {
 #navbar {
     margin: auto;
     padding:auto;
-    font-size:x-large;
+    font-size:large;
     background-color:burlywood;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
