@@ -82,7 +82,8 @@ body {
 #navbar {
     margin: auto;
     padding:auto;
-    font-size:large;
+    /*font-size:large;*/
+    font-size: medium;
     background-color:burlywood;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
