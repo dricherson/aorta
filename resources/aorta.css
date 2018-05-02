@@ -72,7 +72,7 @@ body {
     /*height:9.625em;*/
     /*overflow:hidden;*/
     background-color:burlywood;
-    border-left: 1px solid #000000;
+    aborder-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-top: 1px solid white;
     border-bottom: 1px solid #000000;
@@ -410,9 +410,9 @@ element that is centered on the page, if you so desire. It can even go inside a 
 It carries a background image for aesthetics.
 */
 #menuwrapper {
-    border-left: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
+    aborder-left: 1px solid black;
+    aborder-right: 1px solid black;
+    border-bottom: 1px solid white;
     /*width:1000px;*/
     background-image: url(images/p7exp_mbar.jpg);
     width:100%;
@@ -422,9 +422,9 @@ It carries a background image for aesthetics.
 }
 
 #footermenuwrapper {
-    border-left: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-top: 1px solid #333333;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
     /*width:1000px;*/
     background-image: url(images/footer_mbar.jpg);
     /*margin-left: auto ;
@@ -554,9 +554,8 @@ Font color is set to light gray.
 #p7menubar a {
     display:block;
     text-decoration: none;
-    padding: 5px 10px 5px 10px;
-    border-right: 1px solid #333;
-    border-left: 1px solid #333;
+    padding: 50px 10px 50px 10px;
+margin: auto;
     color: black;
 }
 /*
@@ -620,8 +619,6 @@ A gradient background image is assigned.
     border-bottom: 8px solid #333333;
     border-left: 5px solid #333333;
     border-top: 5px solid #333333;
-    aborder-right: 1px solid #333333;
-    aborder-bottom: 1px solid #333333;
     background-image: url(images/p7exp_mgrad.jpg);
     background-repeat:repeat;
 }
@@ -706,8 +703,7 @@ Font color is set to light gray.
     display:block;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
-    border-right: 1px solid #333;
-    border-left: 1px solid #333;
+
     color: burlywood;   
 }
 /*
@@ -774,7 +770,7 @@ A gradient background image is assigned.
     aborder-right: 1px solid #333333;
     aborder-bottom: 1px solid #333333;
     /*background-image: url(../images/2009/paper.jpg);*/
-    background-image: url(images/p7exp_mgrad.jpg);
+    background-image: url(images/footer_mbar.jpg);
     background-repeat:repeat;
 }
 /*
@@ -830,13 +826,7 @@ over the gradient background. We set text color to white.
 
 }
 
-/* The single backslash \ character inside this comment
-causes IE5 Mac to ignore the following rule, which allows other
-browsers to render top-level menu items to their natural width.
-Do not edit this rule in any way. */
-#footermenubar li {
-    width: auto;
-}
+
 
 a {
     text-decoration:underline;
