@@ -9,7 +9,7 @@ body {
     /*font-family: "Trebuchet MS", Arial, sans-serif;*/
     font-family: Marker Felt, fantasy;
     
-    background-color: #FFFFFF;
+    background-color:burlywood;
     margin: 20px auto;
     padding: auto;
     background-image: url(images/turf.jpg);
@@ -41,9 +41,9 @@ body {
     /*width: 1000px;*/
     min-height: 600px;
     /*height:9.625em;*/
-    background:#222222;
-    border-left: 0px solid #000000;
-    border-right: 0px solid #000000;
+    background:#FFFFFF;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
     /*overflow:hidden;*/
     float:none;
     text-align: center;
@@ -55,13 +55,13 @@ body {
     padding:0;
     /*width:1000px;*/
     /*height:9.625em;*/
-    background-color:#000000;
+    background-color:burlywood;
     /*overflow:hidden;*/
     position:relative;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-top: 1px solid #000000;
-    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid white;
 }
 
 #footer {
@@ -71,10 +71,10 @@ body {
     /*width:1000px;*/
     /*height:9.625em;*/
     /*overflow:hidden;*/
-    background-color:#000000;
+    background-color:burlywood;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
-    border-top: 1px solid #222222;
+    border-top: 1px solid white;
     border-bottom: 1px solid #000000;
 }
 
@@ -83,7 +83,7 @@ body {
     margin: auto;
     padding:auto;
     font-size:x-large;
-    background-color:#000000;
+    background-color:burlywood;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-top: 1px solid #222222;
@@ -156,7 +156,7 @@ body {
 }
 
 .imgbox {
-    border: 3px solid #FFFFFF;
+    border: 3px solid burlywood;
 }
 
 .spacecontent {
@@ -222,7 +222,7 @@ body {
 }
 
 .section {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
@@ -232,7 +232,7 @@ body {
 }
 
 .section_no_pad {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
@@ -240,7 +240,7 @@ body {
 }
 
 .section_center {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
@@ -250,7 +250,7 @@ body {
 }
 
 .sm_section_center {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 0.8em;
     font-weight: bold;
@@ -260,8 +260,8 @@ body {
 }
 
 .pageTitle {
-    color: white;
-    abackground-color: black;
+    color: black;
+    abackground-color: white;
     text-decoration: none;
     font-size: 2.1em;
     font-weight: bold;
@@ -310,11 +310,11 @@ body {
     height:20px;
     /*width:1000px;*/
     float:none;
-    background:#222222;
+    background:white;
     border-left: 0px solid #000000;
     border-right: 0px solid #000000;
-    border-top: 1px solid #222222;
-    border-bottom: 1px solid #222222;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .footerSpacer{
@@ -322,11 +322,11 @@ body {
     padding:0;
     /*width:1000px;*/
     border: 1px solid #000000;
-    background-color:#000000;
+    background-color:burlywood;
 }
 
 .message {
-    color:white;
+    color:black;
     text-align:left;
     margin:auto;
     padding:10px;
@@ -335,7 +335,7 @@ body {
 }
 
 .message_new {
-    color:#FF2020;
+    color: midnightblue;
     /*font-size:1.0em;*/
     font-weight:bold;
     text-align:left;
@@ -350,7 +350,7 @@ body {
     width: auto;
     vertical-align:middle;
     height:150px;
-    color:white;
+    color:black;
 }
 
 .imgtrophy {
@@ -387,7 +387,7 @@ body {
 
 .option_message {
     text-align: left;
-    color:white;
+    color:black;
     padding:10px;
     width:auto;
     vertical-align:middle;
@@ -395,7 +395,7 @@ body {
 
 .message_center {
     text-align: center;
-    color:white;
+    color:black;
     padding:10px;
     /*width:auto;*/
     vertical-align:middle;
@@ -556,7 +556,7 @@ Font color is set to light gray.
     padding: 5px 10px 5px 10px;
     border-right: 1px solid #333;
     border-left: 1px solid #333;
-    color: #FFFFFF;
+    color: black;
 }
 /*
 Class assigned to those Root-Level links that have associated Sub-Menus.
@@ -638,7 +638,7 @@ is not enabled.
 #p7menubar a:active, #p7menubar li.p7hvr a {
     /*color: yellow;*/
     color: royalblue;
-    background-color: #000000;
+    background-color: cornsilk;
 }
 /*
 Set the Sub-Menu UL to be visible when its associated
@@ -707,7 +707,7 @@ Font color is set to light gray.
     padding: 5px 10px 5px 10px;
     border-right: 1px solid #333;
     border-left: 1px solid #333;
-    color: #FFFFFF;   
+    color: burlywood;   
 }
 /*
 Class assigned to those Root-Level links that have associated Sub-Menus.
@@ -749,7 +749,7 @@ bottom padding less than the root items and increas the left padding
 to indent the sub-menu links a small amount in from the root links.
 */
 #footermenubar ul li a  {
-    color: #FFFFFF;
+    color: burlywood;
     border-right: 0;
     padding: 3px 12px 3px 16px;
 }
@@ -790,7 +790,7 @@ is not enabled.
 #footermenubar a:active, #footermenubar li.p7hvr a {
     /*color: yellow;*/
     color: royalblue;
-    background-color: #000000;
+    background-color: burlywood;
 }
 /*
 Set the Sub-Menu UL to be visible when its associated
@@ -842,7 +842,7 @@ a {
 }
 
 a:link {
-    color: white
+    color: dodgerblue;
 }
 
 a:visited {
@@ -857,7 +857,7 @@ a:active {
 a:hover {
     /*color: yellow;*/
     color: royalblue;
-    background-color: black;
+    background-color: cornsilk;
     text-decoration: none;
     visibility: visible;
     top: 0;
@@ -1038,12 +1038,12 @@ Countdown clock format
 */
 #clockdiv{
     /*font-family: sans-serif;*/
-    color: #fff;
+    color: cornflowerblue;
     display: block;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
-    background:#222222;
+    background:white;
 }
 /*
 Border area with uom
@@ -1051,7 +1051,7 @@ Border area with uom
 #clockdiv > div{
     padding: 10px;
     border-radius: 3px;
-    background:#222222;
+    background:white;
     display: inline-block;
 }
 
@@ -1072,7 +1072,7 @@ Inner area
 .clockMessage{
     padding-top: 5px;
     font-size: 30px;
-    color: yellow;
+    color: cornflowerblue;
 }
 
 .days{
