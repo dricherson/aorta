@@ -105,7 +105,7 @@ body {
     min-height: 600px;
 }
 
-#aorta_board,#aorta_contact,#aorta_ideals, #volunteerPositions {
+#aorta_board,#aorta_contact,#aorta_ideals, #volunteerPositions, #volunteerSignup {
     display:none;
     max-width: 1024px;
     margin: auto;
