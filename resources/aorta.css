@@ -97,7 +97,7 @@ body {
     min-height: 600px;
 }
 
-#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon, #tickets
+#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon, #tickets, #importEvent
 {
     display:none;
     margin: auto;
