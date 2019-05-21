@@ -11,6 +11,7 @@ and open the template in the editor.
     <link href="resources/aorta_mobile.css" rel="stylesheet" type="text/css">
     <link href="resources/aorta_theme.css" rel="stylesheet" type="text/css">
     <link href="resources/aorta.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton:n,b,i,bi|Basic:n,b,i,bi|Caudex:n,b,i,bi|Chelsea+Market:n,b,i,bi|Corben:n,b,i,bi|EB+Garamond:n,b,i,bi|Enriqueta:n,b,i,bi|Forum:n,b,i,bi|Fredericka+the+Great:n,b,i,bi|Jockey+One:n,b,i,bi|Josefin+Slab:n,b,i,bi|Jura:n,b,i,bi|Kelly+Slab:n,b,i,bi|Marck+Script:n,b,i,bi|Lobster:n,b,i,bi|Mr+De+Haviland:n,b,i,bi|Niconne:n,b,i,bi|Noticia+Text:n,b,i,bi|Overlock:n,b,i,bi|Patrick+Hand:n,b,i,bi|Play:n,b,i,bi|Sarina:n,b,i,bi|Signika:n,b,i,bi|Spinnaker:n,b,i,bi|Monoton:n,b,i,bi|Sacramento:n,b,i,bi|Cookie:n,b,i,bi|Raleway:n,b,i,bi|Open+Sans+Condensed:300:n,b,i,bi|Amatic+SC:n,b,i,bi|Cinzel:n,b,i,bi|Sail:n,b,i,bi|Playfair+Display:n,b,i,bi|Libre+Baskerville:n,b,i,bi|Roboto:n,b,i,bi|Roboto:n,b,i,bi|Roboto:n,b,i,bi|Work+Sans:n,b,i,bi|Work+Sans:n,b,i,bi|Poppins:n,b,i,bi|Poppins:n,b,i,bi|Barlow:n,b,i,bi|Barlow:n,b,i,bi|Oswald:n,b,i,bi|Oswald:n,b,i,bi|Oswald:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Playfair+Display:n,b,i,bi|Dancing+Script:n,b,i,bi|Damion:n,b,i,bi|Suez+One:n,b,i,bi|Rozha+One:n,b,i,bi|Raleway:n,b,i,bi|Lato:n,b,i,bi|Questrial:n,b,i,bi|Montserrat:n,b,i,bi|&amp;subset=hebrew,arabic,latin">
     <script type="text/javascript" src="resources/aorta.js"></script>
     <script async type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"></script>
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
@@ -35,193 +36,190 @@ and open the template in the editor.
         </nav>-->
 
         <!--<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">-->
-        <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">  
-            <!--<a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="https://www.w3schools.com/images/w3schools.png" style="width:80%;"></a>
-            <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>-->
-            <div class="w3-container w3-theme-d2">
-                <!--<span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>-->
-                <!--<br>-->
-                <div class="w3-padding w3-center">
-                    <img class="w3-circle" src="images/2019/aorta_logo_mini.png" alt="A.O.R.T.A." style="width:50%">
-                </div>
-            </div>
-            <a class="w3-bar-item w3-button w3-teal" href="javascript:ShowContent('intro')">Home</a>
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('information')" href="javascript:void(0)">Information <i class="fa fa-caret-down"></i></a>
-                <div id="information" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('eventInfo');">- Event Details</a>
-                    <a class="w3-bar-item w3-button" href="https://www.facebook.com/events/2175149082580811/" target="_blank">- Facebook Event</a>
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('tickets')">- Tickets</a>
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('Maps');">- Event Map</a>
-                    <a class="w3-bar-item w3-button" href="https://drive.google.com/open?id=1iM-Jrsonc4bIacl_gyJs5fZI7-e6KEVzUDbaBMqxJo8" target="_blank">- Consent Flyer</a>      
-                    <a class="w3-bar-item w3-button" href="https://docs.google.com/document/d/1pGqQnV34quJCxwNom_47xatDYresoqpx_wrkFGOdLYk/edit?usp=sharing" target="_blank">- Guidelines</a>      
-                </div>
-            </div>
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('volunteer')" href="javascript:void(0)">Volunteer <i class="fa fa-caret-down"></i></a>
-                <div id="volunteer" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('volunteerPositions');">- Volunteer Positions</a>
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('volunteerSignup');">- Sign-ups</a>     
-                </div>
-            </div> 
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('forms')" href="javascript:void(0)">Forms <i class="fa fa-caret-down"></i></a>
-                <div id="forms" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdYJwq0dmB6SUZ7LrG5O_Wnv9r-SdNafg_YVSgI7ewe0XbPCw/viewform" target="_blank">- Theme Camp Submission Form</a>
-                    <a class="w3-bar-item w3-button" href="https://docs.google.com/forms/d/e/1FAIpQLSc18WDpK3gatSyreFvtMXz9slzgwQwfi8LPeR6QMhmcdNRz7Q/viewform" target="_blank">- Event Submission Form</a>     
-                </div>
-            </div>   
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('images')" href="javascript:void(0)">Images <i class="fa fa-caret-down"></i></a>
-                <div id="images" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('eventImages');">- Event</a>
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('locationImages');">- Location</a>     
-                </div>
-            </div>  
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('about')" href="javascript:void(0)">About Us <i class="fa fa-caret-down"></i></a>
-                <div id="about" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="https://www.facebook.com/events/2175149082580811/" target="_blank">- Facebook Event</a>
-                    <a class="w3-bar-item w3-button" href="https://docs.google.com/document/d/1_xhHbThr5YILXuu2BHmD2WwvR0Zw8NSzc7Ik5G01_sI/edit?usp=sharing" target="_blank">- Ideals</a>     
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('calendar');">- Calendar</a>     
-                </div>
-            </div>    
-            <div>
-                <a class="w3-bar-item w3-button" onclick="myAccordion('aorta')" href="javascript:void(0)">A.O.R.T.A. <i class="fa fa-caret-down"></i></a>
-                <div id="aorta" class="w3-hide">
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_board');">- Board Members</a>
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_mission');">- Mission Statement</a>     
-                    <a class="w3-bar-item w3-button" href="https://drive.google.com/file/d/1sDlGJ4b7cXxXRNDvfVwsZYHX25Hy7FXb/view?usp=sharing" target="_blank">- By Laws</a>     
-                    <a class="w3-bar-item w3-button" href="https://drive.google.com/drive/u/2/folders/1lU9ttp2px2ad7OlAs3JCAkxzN_kTx14c" target="_blank">- Meeting Minutes</a>     
-                    <a class="w3-bar-item w3-button" href="https://drive.google.com/drive/u/2/folders/1JdVJjJJ3m7fJJkUa11f3qCrKP_iSepjY" target="_blank">- Receipts</a>   
-                    <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_contact');">- Contact</a>     
-                </div>
-            </div>  
 
-        </nav>
 
         <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="closeSidebar()" style="cursor:pointer" id="myOverlay"></div>
 
         <!--<div class="w3-main" style="margin-left:250px;">-->
+        <div class="w3-top ">
+            <header class="w3-top w3-bar w3-theme" >
+                <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="toggle()">&#9776;</button>
+                <!--<h1 class="w3-bar-item">A.O.R.T.A.</h1>-->
+                <div class="w3-padding w3-center">
+                    <img src="images/2019/title.png" alt="A.O.R.T.A." style="width:500px">
+                </div>
+            </header>
+            <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">  
+                <!--<a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="https://www.w3schools.com/images/w3schools.png" style="width:80%;"></a>
+                <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>-->
+                <div class="w3-container w3-theme-d2">
+                    <!--<span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>-->
+                    <!--<br>-->
+                    <div class="w3-padding w3-center">
+                        <a class="w3-bar-item w3-button w3-hover-theme" href="javascript:ShowContent('intro')" onclick="toggle()"><img class="w3-circle" src="images/2019/aorta_logo_mini.png" alt="A.O.R.T.A." style="width:50%"></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <a class="w3-bar-item w3-button w3-teal" href="javascript:ShowContent('intro')" onclick="toggle()">Home</a>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('information')" href="javascript:void(0)">Information <i class="fa fa-caret-down"></i></a>
+                    <div id="information" class="w3-hide">
+                        <a class="w3-bar-item w3-button w3-hover-theme" href="javascript:ShowContent('eventInfo');" onclick="toggle()">- Event Details</a>
+                        <a class="w3-bar-item w3-button" href="https://www.facebook.com/events/2175149082580811/"  onclick="toggle()"target="_blank">- Facebook Event</a>
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('tickets')" onclick="toggle()">- Tickets</a>
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('Maps');" onclick="toggle()">- Event Map</a>
+                        <a class="w3-bar-item w3-button" href="https://drive.google.com/open?id=1iM-Jrsonc4bIacl_gyJs5fZI7-e6KEVzUDbaBMqxJo8" target="_blank" onclick="toggle()">- Consent Flyer</a>      
+                        <a class="w3-bar-item w3-button" href="https://docs.google.com/document/d/1pGqQnV34quJCxwNom_47xatDYresoqpx_wrkFGOdLYk/edit?usp=sharing" target="_blank" onclick="toggle()">- Guidelines</a>      
+                    </div>
+                </div>
+                <div>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('volunteer')" href="javascript:void(0)">Volunteer <i class="fa fa-caret-down"></i></a>
+                    <div id="volunteer" class="w3-hide">
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('volunteerPositions');" onclick="toggle()">- Volunteer Positions</a>
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('volunteerSignup');" onclick="toggle()">- Sign-ups</a>     
+                    </div>
+                </div> 
+                <div>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('forms')" href="javascript:void(0)">Forms <i class="fa fa-caret-down"></i></a>
+                    <div id="forms" class="w3-hide">
+                        <a class="w3-bar-item w3-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdYJwq0dmB6SUZ7LrG5O_Wnv9r-SdNafg_YVSgI7ewe0XbPCw/viewform" target="_blank" onclick="toggle()">- Theme Camp Submission Form</a>
+                        <a class="w3-bar-item w3-button" href="https://docs.google.com/forms/d/e/1FAIpQLSc18WDpK3gatSyreFvtMXz9slzgwQwfi8LPeR6QMhmcdNRz7Q/viewform" target="_blank" onclick="toggle()">- Event Submission Form</a>     
+                    </div>
+                </div>   
+                <!--<div>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('images')" href="javascript:void(0)">Images <i class="fa fa-caret-down"></i></a>
+                    <div id="images" class="w3-hide">
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('eventImages');">- Event</a>
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('locationImages');">- Location</a>     
+                    </div>
+                </div>  -->
+                <div>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('about')" href="javascript:void(0)">About Us <i class="fa fa-caret-down"></i></a>
+                    <div id="about" class="w3-hide">
+                        <a class="w3-bar-item w3-button" href="https://www.facebook.com/events/2175149082580811/" target="_blank" onclick="toggle()">- Facebook Event</a>
+                        <a class="w3-bar-item w3-button" href="https://docs.google.com/document/d/1_xhHbThr5YILXuu2BHmD2WwvR0Zw8NSzc7Ik5G01_sI/edit?usp=sharing" target="_blank" onclick="toggle()">- Ideals</a>     
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('calendar');">- Calendar</a>     
+                    </div>
+                </div>    
+                <div>
+                    <a class="w3-bar-item w3-button" onclick="myAccordion('aorta')" href="javascript:void(0)">A.O.R.T.A. <i class="fa fa-caret-down"></i></a>
+                    <div id="aorta" class="w3-hide">
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_board');" onclick="toggle()">- Board Members</a>
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_mission');" onclick="toggle()">- Mission Statement</a>     
+                        <a class="w3-bar-item w3-button" href="https://drive.google.com/file/d/1sDlGJ4b7cXxXRNDvfVwsZYHX25Hy7FXb/view?usp=sharing" target="_blank" onclick="toggle()">- By Laws</a>     
+                        <a class="w3-bar-item w3-button" href="https://drive.google.com/drive/u/2/folders/1lU9ttp2px2ad7OlAs3JCAkxzN_kTx14c" target="_blank" onclick="toggle()">- Meeting Minutes</a>     
+                        <a class="w3-bar-item w3-button" href="https://drive.google.com/drive/u/2/folders/1JdVJjJJ3m7fJJkUa11f3qCrKP_iSepjY" target="_blank" onclick="toggle()">- Receipts</a>   
+                        <a class="w3-bar-item w3-button" href="javascript:ShowContent('aorta_contact');" onclick="toggle()">- Contact</a>     
+                    </div>
+                </div>  
 
-        <header class="w3-top w3-bar w3-theme" >
-            <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="toggle()">&#9776;</button>
-            <h1 class="w3-bar-item">A.O.R.T.A.</h1>
-        </header>
+            </nav>
 
-        <div class="w3-container" style="margin-top:90px" id="content">
-            <!--<div id="content">-->
-            <hr>
-            <!--<div class="w3-cell-row">
-              <div class="w3-cell" style="width:30%">
-                <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
-              </div>
-              <div class="w3-cell w3-container">
-                <h3>Frozen</h3>
-                <p>The response to the animations was ridiculous.</p>
-              </div>
-            </div>  
-            <hr>
-            <div class="w3-cell-row">
-              <div class="w3-cell" style="width:30%">
-                <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
-              </div>
-              <div class="w3-cell w3-container">
-                <h3>The Fault in Our Stars</h3>
-                <p>Touching, gripping and genuinely well made.</p>
-              </div>
+            <div id="content" >
+                <!--<div id="content">-->
+                <hr>
+                <!--<div class="w3-cell-row">
+                  <div class="w3-cell" style="width:30%">
+                    <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
+                  </div>
+                  <div class="w3-cell w3-container">
+                    <h3>Frozen</h3>
+                    <p>The response to the animations was ridiculous.</p>
+                  </div>
+                </div>  
+                <hr>
+                <div class="w3-cell-row">
+                  <div class="w3-cell" style="width:30%">
+                    <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
+                  </div>
+                  <div class="w3-cell w3-container">
+                    <h3>The Fault in Our Stars</h3>
+                    <p>Touching, gripping and genuinely well made.</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="w3-cell-row">
+                  <div class="w3-cell" style="width:30%">
+                    <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
+                  </div>
+                  <div class="w3-cell w3-container">
+                    <h3>The Avengers</h3>
+                    <p>A huge success for Marvel and Disney.</p>
+                  </div>
+                </div>-->
+
+                <div id="errorMsg"></div>
+
+                <div id="artgrantform">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="intro">
+                    <p>&nbsp;</p> 
+                </div>    
+
+
+                <div id="eventInfo">     
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="calendar">
+                    <p>&nbsp;</p>
+                </div>            
+
+                <div id="locationImages">
+                    <p>&nbsp;</p>
+                </div>            
+
+                <div id="eventImages">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="volunteerform">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="comingsoon">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="Maps">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="ArtGrants">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="aorta_ideals">
+                    <p>&nbsp;</p>               
+                </div>            
+
+                <div id="volunteerPositions">
+                    <p>&nbsp;</p>               
+                </div>             
+
+                <div id="volunteerSignup">
+                    <p>&nbsp;</p>               
+                </div>              
+
+                <div id="aorta_mission">
+                    <p>&nbsp;</p>       
+                </div>        
+
+                <div id="aorta_board">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="aorta_contact">
+                    <p>&nbsp;</p>
+                </div>
             </div>
-            <hr>
-            <div class="w3-cell-row">
-              <div class="w3-cell" style="width:30%">
-                <img class="w3-circle" src="images/2019/aorta_logo_mini.png" style="width:100%">
-              </div>
-              <div class="w3-cell w3-container">
-                <h3>The Avengers</h3>
-                <p>A huge success for Marvel and Disney.</p>
-              </div>
-            </div>-->
-            <div class="spacer">
-                <p>&nbsp;</p>
-            </div>  
 
-            <div id="errorMsg"></div>
-
-            <div id="artgrantform">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="intro">
-                <p>&nbsp;</p> 
-            </div>    
-
-
-            <div id="eventInfo">     
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="calendar">
-                <p>&nbsp;</p>
-            </div>            
-
-            <div id="locationImages">
-                <p>&nbsp;</p>
-            </div>            
-
-            <div id="eventImages">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="volunteerform">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="comingsoon">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="Maps">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="ArtGrants">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="aorta_ideals">
-                <p>&nbsp;</p>               
-            </div>            
-
-            <div id="volunteerPositions">
-                <p>&nbsp;</p>               
-            </div>             
-
-            <div id="volunteerSignup">
-                <p>&nbsp;</p>               
-            </div>              
-
-            <div id="aorta_mission">
-                <p>&nbsp;</p>       
-            </div>        
-
-            <div id="aorta_board">
-                <p>&nbsp;</p>
-            </div>
-
-            <div id="aorta_contact">
-                <p>&nbsp;</p>
-            </div>
-
-            <div class="spacer">
-                <p>&nbsp;</p>
-            </div>
-            <hr>
+            <!--<footer class="w3-container w3-bottom w3-theme w3-margin-top">
+                <h3>&nbsp;</h3>
+            </footer>-->
         </div>
-
-        <footer class="w3-container w3-bottom w3-theme w3-margin-top">
-            <h3></h3>
-        </footer>
-
         <script>
             closeSidebar();
             function openSidebar() {
@@ -240,6 +238,7 @@ and open the template in the editor.
 
             function closeSidebar() {
                 document.getElementById("mySidebar").style.display = "none";
+                myCloseAccordion('');
             }
 
             // Open and close the sidebar on medium and small screens
@@ -272,19 +271,19 @@ and open the template in the editor.
                 var x = document.getElementById(id);
                 if (x.className.indexOf("w3-show") == -1) {
                     x.className += " w3-show";
-                    x.previousElementSibling.className += " w3-theme-parent";
+                    x.previousElementSibling.className += " w3-theme";
                     myCloseAccordion(id);
                 } else {
                     x.className = x.className.replace("w3-show", "");
                     x.previousElementSibling.className =
-                            x.previousElementSibling.className.replace(" w3-theme-parent", "");
+                            x.previousElementSibling.className.replace(" w3-theme", "");
                 }
             }
 
             // Accordions
             function myCloseAccordion(id) {
                 var x;
-                var divButtons = ['information', 'volunteer', 'forms', 'images', 'about', 'aorta'];
+                var divButtons = ['information', 'volunteer', 'forms', 'about', 'aorta'];
                 var divName;
                 for (var i = 0; i < divButtons.length; i++) {
                     divName = divButtons[i];
@@ -292,7 +291,7 @@ and open the template in the editor.
                         x = document.getElementById(divName);
                         x.className = x.className.replace("w3-show", "");
                         x.previousElementSibling.className =
-                                x.previousElementSibling.className.replace(" w3-theme-parent", "");
+                                x.previousElementSibling.className.replace(" w3-theme", "");
                     }
                 }
             }
