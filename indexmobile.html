@@ -99,7 +99,7 @@ and open the template in the editor.
 
         </nav>
 
-        <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="closeSidebar()" style="cursor:pointer" id="myOverlay"></div>
+        <!--<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="closeSidebar()" style="cursor:pointer" id="myOverlay"></div>=-->
 
         <!--<div class="w3-main" style="margin-left:250px;">    -->
 
@@ -224,8 +224,7 @@ and open the template in the editor.
         <script>
             closeSidebar();
             function openSidebar() {
-                document.getElementById("mySidebar").style.display = "block";
-                document.getElementById("myOverlay").style.display = "block";
+                document.getElementById("mySidebar").style.display = "block";                
             }
 
             function toggle() {
@@ -240,7 +239,6 @@ and open the template in the editor.
 
             function closeSidebar() {
                 document.getElementById("mySidebar").style.display = "none";
-                document.getElementById("myOverlay").style.display = "none";
             }
 
             // Open and close the sidebar on medium and small screens
