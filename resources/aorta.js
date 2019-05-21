@@ -184,7 +184,7 @@ function initializeClock(id, endtime, message) {
 }
 
 var schedule = [
-    ['May 24 2019', 'August 8 2018', 'UNTIL <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2019, Wasteland Wonderland!!!</a>']
+    ['May 20 2019', 'August 8 2018', 'UNTIL <a href="https://www.facebook.com/events/866728863513899/">A.O.R.T.A. 2019, Wasteland Wonderland!!!</a>']
 ];
 
 function initCountDown() {
