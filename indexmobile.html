@@ -12,11 +12,12 @@ and open the template in the editor.
     <link href="resources/aorta_theme.css" rel="stylesheet" type="text/css">
     <link href="resources/aorta.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="resources/aorta.js"></script>
+    <script async type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"></script>
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
     <!--<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">-->
 
     <!--<body onLoad="loadPages();HideAll();ShowContent('intro');initCountDown();">-->
-    <body onLoad="loadPages();P7_ExpMenu();initCountDown();">
+    <body onLoad="loadPages();P7_ExpMenu();initCountDown();onGooglePayLoaded();">
         <!--<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
         <div class="w3-container w3-theme-d2">
           <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
@@ -224,7 +225,7 @@ and open the template in the editor.
         <script>
             closeSidebar();
             function openSidebar() {
-                document.getElementById("mySidebar").style.display = "block";                
+                document.getElementById("mySidebar").style.display = "block";
             }
 
             function toggle() {
@@ -272,10 +273,27 @@ and open the template in the editor.
                 if (x.className.indexOf("w3-show") == -1) {
                     x.className += " w3-show";
                     x.previousElementSibling.className += " w3-theme-parent";
+                    myCloseAccordion(id);
                 } else {
                     x.className = x.className.replace("w3-show", "");
                     x.previousElementSibling.className =
                             x.previousElementSibling.className.replace(" w3-theme-parent", "");
+                }
+            }
+
+            // Accordions
+            function myCloseAccordion(id) {
+                var x;
+                var divButtons = ['information', 'volunteer', 'forms', 'images', 'about', 'aorta'];
+                var divName;
+                for (var i = 0; i < divButtons.length; i++) {
+                    divName = divButtons[i];
+                    if (divName !== id) {
+                        x = document.getElementById(divName);
+                        x.className = x.className.replace("w3-show", "");
+                        x.previousElementSibling.className =
+                                x.previousElementSibling.className.replace(" w3-theme-parent", "");
+                    }
                 }
             }
         </script>
