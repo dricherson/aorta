@@ -82,6 +82,7 @@ function HideAll() {
     HideContent('Maps');
     HideContent('volunteerPositions');
     HideContent('volunteerSignup');
+    HideContent('tickets');
     /*HideContent('importIntro');
      HideContent('importEvent');*/
     /*
@@ -229,6 +230,7 @@ function loadPages() {
         ,['Maps', "content/Maps.html"]
         ,['volunteerPositions', "content/volunteerPositions.html"]
         ,['volunteerSignup', "content/volunteerSignup.html"]
+        ,['tickets', "content/tickets.html"]
 
     ];
 
