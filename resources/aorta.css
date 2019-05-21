@@ -41,6 +41,7 @@ body {
     /*width: 1000px;*/
     min-height: 600px;
     /*height:9.625em;*/
+    width:90%;
     background:#FFFFFF;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
@@ -1071,17 +1072,17 @@ Inner area
 }
 
 .days{
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .hours{
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .minutes{
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .seconds{
-    font-size: 75px;
+    font-size: 50px;
 }
