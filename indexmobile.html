@@ -13,12 +13,33 @@ and open the template in the editor.
     <link href="resources/aorta.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton:n,b,i,bi|Basic:n,b,i,bi|Caudex:n,b,i,bi|Chelsea+Market:n,b,i,bi|Corben:n,b,i,bi|EB+Garamond:n,b,i,bi|Enriqueta:n,b,i,bi|Forum:n,b,i,bi|Fredericka+the+Great:n,b,i,bi|Jockey+One:n,b,i,bi|Josefin+Slab:n,b,i,bi|Jura:n,b,i,bi|Kelly+Slab:n,b,i,bi|Marck+Script:n,b,i,bi|Lobster:n,b,i,bi|Mr+De+Haviland:n,b,i,bi|Niconne:n,b,i,bi|Noticia+Text:n,b,i,bi|Overlock:n,b,i,bi|Patrick+Hand:n,b,i,bi|Play:n,b,i,bi|Sarina:n,b,i,bi|Signika:n,b,i,bi|Spinnaker:n,b,i,bi|Monoton:n,b,i,bi|Sacramento:n,b,i,bi|Cookie:n,b,i,bi|Raleway:n,b,i,bi|Open+Sans+Condensed:300:n,b,i,bi|Amatic+SC:n,b,i,bi|Cinzel:n,b,i,bi|Sail:n,b,i,bi|Playfair+Display:n,b,i,bi|Libre+Baskerville:n,b,i,bi|Roboto:n,b,i,bi|Roboto:n,b,i,bi|Roboto:n,b,i,bi|Work+Sans:n,b,i,bi|Work+Sans:n,b,i,bi|Poppins:n,b,i,bi|Poppins:n,b,i,bi|Barlow:n,b,i,bi|Barlow:n,b,i,bi|Oswald:n,b,i,bi|Oswald:n,b,i,bi|Oswald:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Cormorant+Garamond:n,b,i,bi|Playfair+Display:n,b,i,bi|Dancing+Script:n,b,i,bi|Damion:n,b,i,bi|Suez+One:n,b,i,bi|Rozha+One:n,b,i,bi|Raleway:n,b,i,bi|Lato:n,b,i,bi|Questrial:n,b,i,bi|Montserrat:n,b,i,bi|&amp;subset=hebrew,arabic,latin">
     <script type="text/javascript" src="resources/aorta.js"></script>
-    <!--<script async type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"></script>-->
+    <script async type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"></script>
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
     <!--<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">-->
 
     <!--<body onLoad="loadPages();HideAll();ShowContent('intro');initCountDown();">-->
-    <body onLoad="loadPages();P7_ExpMenu();initCountDown();">
+    <body onLoad="loadPages();P7_ExpMenu();initCountDown();onGooglePayLoaded();">
+        <!--<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+        <div class="w3-container w3-theme-d2">
+          <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+          <br>
+          <div class="w3-padding w3-center">
+            <img class="w3-circle" src="img_avatar.jpg" alt="avatar" style="width:75%">
+          </div>
+        </div>
+        <a class="w3-bar-item w3-button" href="#">Information</a>
+        <a class="w3-bar-item w3-button" href="#">Volunteer</a>
+        <a class="w3-bar-item w3-button" href="#">Forms</a>
+        <a class="w3-bar-item w3-button" href="#">Images</a>
+        <a class="w3-bar-item w3-button" href="#">About Us</a>
+        <a class="w3-bar-item w3-button" href="#">A.O.R.T.A.</a>
+        </nav>-->
+
+        <!--<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">-->
+
+
+        <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="closeSidebar()" style="cursor:pointer" id="myOverlay"></div>
+
         <!--<div class="w3-main" style="margin-left:250px;">-->
         <div class="w3-top ">
             <header class="w3-top w3-bar w3-theme" >
@@ -32,10 +53,13 @@ and open the template in the editor.
                 <!--<a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="https://www.w3schools.com/images/w3schools.png" style="width:80%;"></a>
                 <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>-->
                 <div class="w3-container w3-theme-d2">
+                    <!--<span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>-->
+                    <!--<br>-->
                     <div class="w3-padding w3-center">
                         <a class="w3-bar-item w3-button w3-hover-theme" href="javascript:ShowContent('intro')" onclick="toggle()"><img class="w3-circle" src="images/2019/aorta_logo_mini.png" alt="A.O.R.T.A." style="width:50%"></a>
                     </div>
                 </div>
+                
                 <div>
                     <a class="w3-bar-item w3-button w3-teal" href="javascript:ShowContent('intro')" onclick="toggle()">Home</a>
                     <a class="w3-bar-item w3-button" onclick="myAccordion('information')" href="javascript:void(0)">Information <i class="fa fa-caret-down"></i></a>
@@ -231,7 +255,11 @@ and open the template in the editor.
                 document.getElementById("mySidebar").style.display = "none";
                 document.getElementById("myOverlay").style.display = "none";
             }
-           
+
+            // Change style of top container on scroll
+            window.onscroll = function () {
+                myFunction()
+            };
             function myFunction() {
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                     document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
