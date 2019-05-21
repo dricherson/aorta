@@ -1,0 +1,1083 @@
+/*
+  ------------------------------------
+  PVII Menu CSS Express Drop-Down Menu
+  by Project Seven Development
+  www.projectseven.com
+  ------------------------------------
+*/
+body {
+    /*font-family: "Trebuchet MS", Arial, sans-serif;*/
+    font-family: Marker Felt, fantasy;
+    
+    background-color:burlywood;
+    margin: 20px auto;
+    padding: auto;
+    background-image: url(images/turf.jpg);
+    min-width: 1024px;
+    max-width: 1920px;
+    min-height: 768px;
+    max-height: 1080px;
+    vertical-align: middle;
+    font-variant: small-caps
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0;
+    display:block;
+    /*width: 1000px;*/
+    /*position:relative;*/
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    float:none;    
+    height:available;
+}
+
+#content{
+    display:block;
+    margin: auto;
+    padding: 0 7px;
+    font-size:large;
+    /*width: 1000px;*/
+    min-height: 600px;
+    /*height:9.625em;*/
+    background:#FFFFFF;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    /*overflow:hidden;*/
+    float:none;
+    text-align: center;
+}
+
+#header {
+    clear:both;
+    margin:0;
+    padding:0;
+    /*width:1000px;*/
+    /*height:9.625em;*/
+    background-color:burlywood;
+    /*overflow:hidden;*/
+    position:relative;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid white;
+}
+
+#footer {
+    clear:both;
+    margin:auto;
+    padding:auto;
+    /*width:1000px;*/
+    /*height:9.625em;*/
+    /*overflow:hidden;*/
+    background-color:burlywood;
+    aborder-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid #000000;
+}
+
+
+#navbar {
+    margin: auto;
+    padding:auto;
+    /*font-size:large;*/
+    font-size: medium;
+    background-color:burlywood;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #000000;
+}
+
+#intro {
+    margin: auto;
+    max-width: 1024px;
+    min-height: 600px;
+}
+
+#eventInfo, #eventImages, #locationImages, #aorta_mission, #comingsoon, #tickets, #importEvent
+{
+    display:none;
+    margin: auto;
+    max-width: 1024px;
+    min-height: 600px;
+}
+
+#aorta_board,#aorta_contact,#aorta_ideals, #volunteerPositions, #volunteerSignup {
+    display:none;
+    max-width: 1024px;
+    margin: auto;
+    min-height: 600px;
+}
+
+#ArtGrants, #Maps, #artgrantform, #calendar
+{
+    display:none;
+    min-height: 600px;
+    margin: auto;
+    max-width: 1024px;
+}
+
+#volunteerform
+{
+    display:none;
+    min-height: 600px;
+}
+
+#merchandise
+{
+    display:none;
+    /*height:9.625em;*/
+    background:#222222;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    margin:0 auto;
+    height:1550px;
+    padding: 10px;
+}
+
+.leftcol {
+    float: left;
+    width: 50px;
+    height:auto;
+}
+
+.rightcol {
+    float: right;
+    width: 50px;
+    height:auto;
+}
+
+.imgcontent {
+    float: left;
+    width: 500px;
+    height:auto;
+}
+
+.imgbox {
+    border: 3px solid burlywood;
+}
+
+.spacecontent {
+    float: right;
+    width: 50px;
+    height:auto;
+}
+
+.ordercontent {
+    padding-top:20px;
+    float: right;
+    width: 250px;
+    height:auto;
+    border: 0px solid #FFFFFF;
+    margin:5px;
+}
+
+.orderbox {
+    padding:5px;
+    height:auto;
+    margin: 0 auto;
+    border: 3px solid #FFFFFF;
+    text-align:left;
+}
+
+.ordernobox {
+    padding:0px;
+    height:auto;
+    margin: 0 auto;
+    border: 0px solid #FFFFFF;
+    text-align:left;
+}
+
+.divcontent {
+    clear: both;
+    width: 100%;
+}
+
+.merchandise{
+    background:#222222;
+    margin:0 auto;
+    HEIGHT:AUTO;
+}
+
+.merchandiseDiv{
+    display:block;
+    border:2px solid #ffffff;
+    width:500px;
+    float:left;
+    color:white;
+}
+
+.orderDiv{
+    display:block;
+    border:2px solid #ffffff;
+    width:300px;
+    float:left;
+    color:white;
+}
+
+.table_center {
+    margin: 0 auto;
+}
+
+.section {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left:10px;
+    padding-top:10px;
+    text-align:left;
+}
+
+.section_no_pad {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align:left;
+}
+
+.section_center {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align:center;
+}
+
+.sm_section_center {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align:center;
+}
+
+.pageTitle {
+    color: black;
+    abackground-color: white;
+    text-decoration: none;
+    font-size: 2.1em;
+    font-weight: bold;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align:center;
+}
+
+.thumbnail{
+    aposition: relative;
+    z-index: 0;
+}
+
+.thumbnail:hover{
+    background-color: transparent;
+    z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+    position: absolute;
+    /*background-color: lightyellow;*/
+    background-color: darkgray;
+    padding: 5px;
+    left: 100px;
+    border: 1px dashed black;
+    visibility: hidden;
+    color: black;
+    text-decoration: magenta;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+    visibility: visible;
+    top: 10;
+    left: 100px; /*position where enlarged image should offset horizontally */
+
+}
+
+.spacer {
+    margin:0;
+    padding:0px;
+    height:20px;
+    /*width:1000px;*/
+    float:none;
+    background:white;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.footerSpacer{
+    margin:0;
+    padding:0;
+    /*width:1000px;*/
+    border: 1px solid #000000;
+    background-color:burlywood;
+}
+
+.message {
+    color:black;
+    text-align:left;
+    margin:auto;
+    padding:10px;
+    width:auto;
+    vertical-align:middle;
+}
+
+.message_new {
+    color: midnightblue;
+    /*font-size:1.0em;*/
+    font-weight:bold;
+    text-align:left;
+    padding:10px;
+    width:auto;
+    vertical-align:middle;
+}
+
+.imgdescription {
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+    width: auto;
+    vertical-align:middle;
+    height:150px;
+    color:black;
+}
+
+.imgtrophy {
+    height:150px;
+}
+
+.imgmessage {
+    width:150px;
+    text-align:center;
+    vertical-align:middle;
+    float:left;
+}
+
+.imgrightmessage {
+    width:150px;
+    text-align:center;
+    vertical-align:middle;
+    float:left;
+}
+
+.txtmessage {
+    width:300px;
+    text-align:left;
+    vertical-align:middle;
+    float:left;
+}
+
+.txtmessagelong {
+    width:750px;
+    text-align:left;
+    vertical-align:middle;
+    float:left;
+}
+
+.option_message {
+    text-align: left;
+    color:black;
+    padding:10px;
+    width:auto;
+    vertical-align:middle;
+}
+
+.message_center {
+    text-align: center;
+    color:black;
+    padding:10px;
+    /*width:auto;*/
+    vertical-align:middle;
+}
+
+
+/*
+Container for the menu. We set top and bottom borders only because the menu container
+stretches the entire window width. Note that this container can go inside a fixed width
+element that is centered on the page, if you so desire. It can even go inside a table cell.
+It carries a background image for aesthetics.
+*/
+#menuwrapper {
+    aborder-left: 1px solid black;
+    aborder-right: 1px solid black;
+    border-bottom: 1px solid white;
+    /*width:1000px;*/
+    background-image: url(images/p7exp_mbar.jpg);
+    width:100%;
+    margin: auto;
+    padding: 0;
+    float: left;
+}
+
+#footermenuwrapper {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
+    /*width:1000px;*/
+    background-image: url(images/footer_mbar.jpg);
+    /*margin-left: auto ;
+    margin-right: auto ;
+    float: left;*/
+    width:100%;
+    margin: auto;
+    padding: 0;
+    float: left;
+}
+
+#test img{
+    border-style: none;
+    vertical-align:bottom;
+}
+
+#wrapperwraper{
+    margin-left: auto ;
+    margin-right: auto ;
+    float:left;
+    width:AUTO;
+}
+
+#imagewrapper {
+    margin-left:auto;
+    margin-right: auto;
+    float: left;
+    width:auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#titlediv {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    /*background-image: url(images/p7exp_mbar.jpg);*/
+    background-color:black;
+    margin-left:auto;
+    margin-right: auto;
+    float:none;
+    padding: 10px 10px 10px 10px;
+
+    height: 176px;
+    background:url(images/2011/title.png);
+}
+
+#imagewrapper3 {
+    margin-left:auto;
+    margin-right: auto;
+    float: right;
+    padding: 10px 10px 10px 10px;
+}
+
+img.floatLeft {
+    float:left;
+    margin: 10px;
+
+}
+
+img.floatRight {
+    float:right;
+    margin: 10px;
+}
+
+#anchorimage {
+    vertical-align:middle;
+}
+
+#imagewrapper a:link {
+    display: block;
+    text-decoration: none;
+}
+
+#imagewrapper a:hover img{
+    background-image: url(images/p7exp_mgrad.jpg);
+    text-decoration:underline;
+}
+
+#imagewrapper3 a:link {
+    margin-top:auto;
+    margin-bottom:auto;
+    text-decoration: none;
+}
+
+#imagewrapper3 a:hover img{
+    background-image: url(images/p7exp_mgrad.jpg);
+    text-decoration:underline;
+}
+
+
+/*Clears the floated menu items.
+Assigned to a BR tag placed just before
+menuwrapper's closing DIV tag*/
+.clearit {
+    clear: both;
+    height: 0;
+    line-height: 0.0;
+    font-size: 0;
+}
+/*
+p7menubar is the root UL and p7menubar ul applies to all the sub-menu ULs.
+We set padding and margin to zero to eliminate all indentation, turn bullets off,
+and set a font-family different from the global font-family declared for the
+body element above. This sets font for just the menu. Do not add a font-size here.
+*/
+#p7menubar {
+    padding: 0;
+    margin: auto;
+    list-style:none;
+    width:50%;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+#p7menubar ul {
+
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    padding: 0;
+    margin: auto;
+    list-style:none;
+}
+/*
+Root-Level Links.  Do not change the first two properties.
+Adjust padding values to make the root links taller and to offset them
+from the left and right edges of the link box. The border right creates a
+separator between links. Font-size is set here and will apply to all menu levels.
+Font color is set to light gray.
+*/
+#p7menubar a {
+    display:block;
+    text-decoration: none;
+    padding: 50px 10px 50px 10px;
+margin: auto;
+    color: black;
+}
+/*
+Class assigned to those Root-Level links that have associated Sub-Menus.
+The top and bottom padding assigned this element must be the same as
+that assigned to the p7menubar a element. The right padding is increased
+to accomodate the display of background image depicting a downward
+pointing arrow.
+*/
+#p7menubar a.trigger {
+    padding: 5px 16px 5px 10px;
+    background-image: url(images/p7PM_dark_south.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+/*
+The Root-Level list items. Floating left allows
+them to appear horizontally. Width is for IE5 Mac. The last rule in
+this style sheet will set the width for this element to auto for all
+other browsers - hiding it from IE5 Mac. The width is proportional.
+As you add and edit root menu items, you will need to test this width
+to ensure it is wide enough to accomodate all text.
+*/
+#p7menubar li {
+    float: left;
+    width: 9em;
+}
+/*
+Sets width for Sub-Menu box and the List Items inside - in proportional em units.
+This allows the sub-menu width to expand if users resize the text in their browsers.
+*/
+#p7menubar li ul, #p7menubar ul li  {
+    width: 14em;
+}
+/*
+The sub-menu links. We set color and turn off the right border, which
+would otherwise be inherited from the root link rule. We set top and
+bottom padding less than the root items and increas the left padding
+to indent the sub-menu links a small amount in from the root links.
+*/
+#p7menubar ul li a  {
+    /*color: #FFFFFF;*/
+    color: #FF0000;
+    border-right: 0;
+    padding: 3px 12px 3px 16px;
+}
+/*
+Sub-Menu Unordered Lists describes each dropdown sub-menu grouping.
+Positioned Absolutely to allow them to appear below their root trigger.
+Set to display none to hide them until trigger is moused over.
+Background Color must be set or problems will be encountered in MSIE.
+Right and bottom borders are set to simulate a raised look.
+A gradient background image is assigned.
+*/
+#p7menubar li ul {
+    position: absolute;
+    display: none;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border-right: 5px solid #333333;
+    border-bottom: 8px solid #333333;
+    border-left: 5px solid #333333;
+    border-top: 5px solid #333333;
+    background-image: url(images/p7exp_mgrad.jpg);
+    background-repeat:repeat;
+}
+/*
+Changes the Text color and background color when the Root-Level
+menu items are moused over. The second selector sets color and background
+when Root-Level items are accessed with the keyboard tab key. The third
+selector sets an active state to support keyboard access in MSIE. The fourth
+selector is assigned to IE5 and IE6 Windows via the P7_ExpMenu script.
+Note that IE7 supports hover on elements other than links and so behaves
+like Firefox, Opera, and Safari - making the menu operable even if JavaScript
+is not enabled.
+*/
+#p7menubar li:hover a, #p7menubar a:focus,
+#p7menubar a:active, #p7menubar li.p7hvr a {
+    /*color: yellow;*/
+    color: royalblue;
+    background-color: cornsilk;
+}
+/*
+Set the Sub-Menu UL to be visible when its associated
+Root-Level link is moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+*/
+#p7menubar li:hover ul, #p7menubar li.p7hvr ul {
+    display: block;   
+}
+/*
+Sets the Text color of the Sub-Level links when the Root-Level
+menu items are moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+The color set should march the normal Sub-Level link color
+in the rule: #p7menubar ul li a. The background color must be
+transparent to allow the underlying gradient background on the UL
+to show through.
+*/
+#p7menubar li:hover ul a, #p7menubar li.p7hvr ul a {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+/*
+The normal hover class for Sub-Level links. The Important directive
+is required for older browsers. We set a background color, which shows
+over the gradient background. We set text color to white.
+*/
+#p7menubar ul a:hover {
+    background-color:#FFFFFF!important;
+    color: royalblue!important;
+    padding: 5px 16px 5px 15px;
+    background-image: url(images/p7PM_dark_east.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+/* The single backslash \ character inside this comment
+causes IE5 Mac to ignore the following rule, which allows other
+browsers to render top-level menu items to their natural width.
+Do not edit this rule in any way. */
+#p7menubar li {
+    width: auto;
+}
+
+/*
+footermenubar is the root UL and footermenubar ul applies to all the sub-menu ULs.
+We set padding and margin to zero to eliminate all indentation, turn bullets off,
+and set a font-family different from the global font-family declared for the
+body element above. This sets font for just the menu. Do not add a font-size here.
+*/
+#footermenubar, #footermenubar ul {
+    padding: 0;
+    margin: auto;
+    list-style:none;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+/*
+Root-Level Links.  Do not change the first two properties.
+Adjust padding values to make the root links taller and to offset them
+from the left and right edges of the link box. The border right creates a
+separator between links. Font-size is set here and will apply to all menu levels.
+Font color is set to light gray.
+*/
+#footermenubar a {
+    display:block;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+
+    color: burlywood;   
+}
+/*
+Class assigned to those Root-Level links that have associated Sub-Menus.
+The top and bottom padding assigned this element must be the same as
+that assigned to the footermenubar a element. The right padding is increased
+to accomodate the display of background image depicting a downward
+pointing arrow.
+*/
+#footermenubar a.trigger {
+    padding: 5px 16px 5px 10px;
+    /*background-image: url(images/p7PM_dark_south.gif);*/
+    background-repeat: no-repeat;
+    background-position: right center;    
+
+}
+/*
+The Root-Level list items. Floating left allows
+them to appear horizontally. Width is for IE5 Mac. The last rule in
+this style sheet will set the width for this element to auto for all
+other browsers - hiding it from IE5 Mac. The width is proportional.
+As you add and edit root menu items, you will need to test this width
+to ensure it is wide enough to accomodate all text.
+*/
+#footermenubar li {
+    float:left;
+    width: 9em;
+}
+/*
+Sets width for Sub-Menu box and the List Items inside - in proportional em units.
+This allows the sub-menu width to expand if users resize the text in their browsers.
+*/
+#footermenubar li ul, #footermenubar ul li  {
+    width: 14em;
+}
+/*
+The sub-menu links. We set color and turn off the right border, which
+would otherwise be inherited from the root link rule. We set top and
+bottom padding less than the root items and increas the left padding
+to indent the sub-menu links a small amount in from the root links.
+*/
+#footermenubar ul li a  {
+    color: burlywood;
+    border-right: 0;
+    padding: 3px 12px 3px 16px;
+}
+/*
+Sub-Menu Unordered Lists describes each dropdown sub-menu grouping.
+Positioned Absolutely to allow them to appear below their root trigger.
+Set to display none to hide them until trigger is moused over.
+Background Color must be set or problems will be encountered in MSIE.
+Right and bottom borders are set to simulate a raised look.
+A gradient background image is assigned.
+*/
+#footermenubar li ul {
+    position:absolute;
+    display: none;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border-right: 5px solid #000000;
+    border-bottom: 8px solid #000000;
+    border-left: 5px solid #000000;
+    border-top: 5px solid #000000;
+    aborder-right: 1px solid #333333;
+    aborder-bottom: 1px solid #333333;
+    /*background-image: url(../images/2009/paper.jpg);*/
+    background-image: url(images/footer_mbar.jpg);
+    background-repeat:repeat;
+}
+/*
+Changes the Text color and background color when the Root-Level
+menu items are moused over. The second selector sets color and background
+when Root-Level items are accessed with the keyboard tab key. The third
+selector sets an active state to support keyboard access in MSIE. The fourth
+selector is assigned to IE5 and IE6 Windows via the P7_ExpMenu script.
+Note that IE7 supports hover on elements other than links and so behaves
+like Firefox, Opera, and Safari - making the menu operable even if JavaScript
+is not enabled.
+*/
+#footermenubar li:hover a, #footermenubar a:focus,
+#footermenubar a:active, #footermenubar li.p7hvr a {
+    /*color: yellow;*/
+    color: royalblue;
+    background-color: burlywood;
+}
+/*
+Set the Sub-Menu UL to be visible when its associated
+Root-Level link is moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+*/
+#footermenubar li:hover ul, #footermenubar li.p7hvr ul {
+    display: block;
+}
+/*
+Sets the Text color of the Sub-Level links when the Root-Level
+menu items are moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+The color set should march the normal Sub-Level link color
+in the rule: #footermenubar ul li a. The background color must be
+transparent to allow the underlying gradient background on the UL
+to show through.
+*/
+#footermenubar li:hover ul a, #footermenubar li.p7hvr ul a {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+/*
+The normal hover class for Sub-Level links. The Important directive
+is required for older browsers. We set a background color, which shows
+over the gradient background. We set text color to white.
+*/
+#footermenubar ul a:hover {
+    background-color:#FFFFFF!important;
+    color: royalblue!important;
+    padding: 5px 16px 5px 15px;
+    background-image: url(images/p7PM_dark_east.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    bottom: 100%;
+
+}
+
+
+
+a {
+    text-decoration:underline;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:visited {
+    /*color: yellow;*/
+    color: royalblue;
+}
+
+a:active {
+    color: #333333;
+}
+
+a:hover {
+    /*color: yellow;*/
+    color: royalblue;
+    background-color: cornsilk;
+    text-decoration: none;
+    visibility: visible;
+    top: 0;
+    left: 0;
+}
+
+input.team_txt_input
+{
+    width: 200px;
+    background-color: #ffffff;
+}
+
+input.name_txt_input
+{
+    width: 270px;
+    text-align:left;
+    background-color: #ffffff;
+}
+
+input.nonplayer_txt_input
+{
+    width: 320px;
+    text-align:left;
+    background-color: #ffffff;
+}
+
+input.info_txt_input
+{
+    width: 500px;
+    text-align:left;
+    background-color: #ffffff;
+}
+
+input.num_txt_input
+{
+    width: 80px;
+    text-align:left;
+    background-color: #ffffff;
+}
+
+td.info_txt_input
+{
+    padding:2px;
+    width: auto;
+    background-color: #ffffff;
+    text-align:left;
+}
+
+td.team_txt_input
+{
+    padding:2px;
+    width: auto;
+    background-color: #000000;
+    text-align:left;
+}
+
+td.num_txt_input
+{
+    padding:2px;
+    width: auto;
+    text-align:left;
+    background-color: #000000;
+}
+
+table.info
+{
+    text-align:left;
+    border-color:#898989;
+    border-style:solid;
+    border-width:0px;
+    border-spacing:3px;
+    color: white;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+tr.message {
+    background-color: #000000;
+}
+
+tr.info {
+    text-align:left;
+    border-width: 2px;
+    padding: 3px;
+    color: white;
+}
+
+td.info {
+    text-align:left;
+    border-width: 2px;
+    padding: 3px;
+    border-color: #111111;
+    background-color: #222222;
+    color: white;
+}
+
+td.title
+{
+    color: white;
+    font-weight: bold;
+    width: auto;
+    text-align:left;
+    font-variant: small-caps;
+    font-size: 12pt;
+    background-color: black;
+}
+
+.standout
+{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 12pt;
+    font-variant: small-caps;
+    font-family: serif;
+    text-decoration: underline;
+}
+
+.details
+{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    text-align:center;
+    font-family: serif;
+}
+
+.notice
+{
+    /*color: yellow;*/
+    color: royalblue;
+    background-color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.0em;
+    text-align: left;
+    font-family: serif;
+}
+
+.notice_center
+{
+    /*color: yellow;*/
+    color: royalblue;
+    background-color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.0em;
+    text-align: center;
+    font-family: serif;
+}
+
+.formEntry
+{
+    margin: 0 auto;
+    padding:5px;
+    width: 670px;
+    background-color:#444444;
+    border-spacing:1px;
+    border-width:1px;
+    border: 1px solid #000000;
+    border-collapse:separate;
+}
+
+.rightMargin
+{
+    float: right;
+    width: 0%;
+}
+
+.leftMargin
+{
+    float: left;
+    width: 0%;
+}
+/*
+Countdown clock format
+*/
+#clockdiv{
+    /*font-family: sans-serif;*/
+    color: cornflowerblue;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    background:white;
+}
+/*
+Border area with uom
+*/
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background:white;
+    display: inline-block;
+}
+
+/*
+Inner area
+*/
+#clockdiv div > span{
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.clockMessage{
+    padding-top: 5px;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+.days{
+    font-size: 75px;
+}
+
+.hours{
+    font-size: 75px;
+}
+
+.minutes{
+    font-size: 75px;
+}
+
+.seconds{
+    font-size: 75px;
+}
