@@ -9,10 +9,10 @@ body {
     /*font-family: "Trebuchet MS", Arial, sans-serif;*/
     font-family: Marker Felt, fantasy;
     
-    background-color:burlywood;
+    background-color:grey;
     margin: 20px auto;
     padding: auto;
-    background-image: url(images/turf.jpg);
+    background-image: url(images/turf.png);
     min-width: 1024px;
     max-width: 1920px;
     min-height: 768px;
@@ -55,7 +55,8 @@ body {
     padding:0;
     /*width:1000px;*/
     /*height:9.625em;*/
-    background-color:burlywood;
+    background-color:grey;
+    background-image: url(images/header.png);
     /*overflow:hidden;*/
     position:relative;
     border-left: 1px solid #000000;
@@ -71,7 +72,7 @@ body {
     /*width:1000px;*/
     /*height:9.625em;*/
     /*overflow:hidden;*/
-    background-color:burlywood;
+    background-color:grey;
     aborder-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-top: 1px solid white;
@@ -84,7 +85,8 @@ body {
     padding:auto;
     /*font-size:large;*/
     font-size: medium;
-    background-color:burlywood;
+    background-color:grey;
+    background-image: url(images/header.png);
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     border-top: 1px solid #222222;
@@ -157,7 +159,7 @@ body {
 }
 
 .imgbox {
-    border: 3px solid burlywood;
+    border: 3px solid grey;
 }
 
 .spacecontent {
@@ -323,7 +325,8 @@ body {
     padding:0;
     /*width:1000px;*/
     border: 1px solid #000000;
-    background-color:burlywood;
+    background-color:grey;
+    background-image: url(images/header.png);
 }
 
 .message {
@@ -704,7 +707,7 @@ Font color is set to light gray.
     text-decoration: none;
     padding: 5px 10px 5px 10px;
 
-    color: burlywood;   
+    color: grey;   
 }
 /*
 Class assigned to those Root-Level links that have associated Sub-Menus.
@@ -746,7 +749,7 @@ bottom padding less than the root items and increas the left padding
 to indent the sub-menu links a small amount in from the root links.
 */
 #footermenubar ul li a  {
-    color: burlywood;
+    color: grey;
     border-right: 0;
     padding: 3px 12px 3px 16px;
 }
@@ -787,7 +790,8 @@ is not enabled.
 #footermenubar a:active, #footermenubar li.p7hvr a {
     /*color: yellow;*/
     color: royalblue;
-    background-color: burlywood;
+    background-color: grey;
+    background-image: url(images/header.png);
 }
 /*
 Set the Sub-Menu UL to be visible when its associated
@@ -970,7 +974,7 @@ td.title
 .details
 {
     color: black;
-    background-color: white;
+    background-color: black;
     font-weight: bold;
     font-size: 10pt;
     text-align:center;
